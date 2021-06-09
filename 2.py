@@ -38,7 +38,3 @@ def learn(concepts, target):
 s_final, g_final = learn(concepts, target)
 print("Final Specific_h:", s_final, sep="\n")
 print("Final General_h:", g_final, sep="\n")
-
-# s = [1,2,3,4,1,2,3,1,1,1]
-# s = [i for i in s if i!=1]
-# print(s)
