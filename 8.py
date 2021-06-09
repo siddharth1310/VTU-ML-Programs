@@ -1,13 +1,10 @@
 from sklearn import datasets
-import pandas as pd
-import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.mixture import GaussianMixture
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 iris = datasets.load_iris()
-
 
 x = iris.data
 y = iris.target
